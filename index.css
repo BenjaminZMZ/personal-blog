@@ -1,0 +1,165 @@
+nav{
+    background-color: red;
+    height: 50px;
+    background: url("img/nav.png");
+}
+
+nav ul{
+    list-style: none;
+    margin: 0px;
+    float: right;
+}
+
+nav ul li,nav #logo{
+    display: inline-block;
+    line-height: 50px;
+    margin-right: 20px;
+}
+
+nav ul li a{
+    line-height: 50px;
+    text-decoration: none;
+    display: inline-block;
+    height: inherit;
+    color: white;
+}
+
+nav #logo{
+    float: left;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    float: left;
+    padding-left: 10px;
+}
+
+#banner{
+    height: 700px;
+    background-color: orange;
+    background: url("img/first.jpg");
+    background-repeat: round;
+
+}
+
+#banner .inner{
+    max-width: 300px;
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    top: 160px;
+
+}
+
+#banner .inner p{
+    width: 300px;
+    display: block;
+    word-wrap: break-word;
+    line-height: 30px;
+    font-size: large;
+}
+
+#banner .inner h1{
+    margin: 0px;
+}
+
+#banner button{
+    border: none;
+    background-color: #333;
+    color: #e1e1e1;
+    padding: 14px 40px;
+    border-radius: 5px;
+}
+
+#banner .inner .more{
+    margin-top: 280px;
+    font-size: large;
+}
+
+#logo a{
+    color: white;
+    text-decoration: none;
+}
+
+.green-section{
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    padding: 100px 0;
+    background: url("img/second.jpg");
+    background-repeat: round;
+}
+
+.green-section .hr{
+    width: 60%;
+    margin: 0 auto;
+    height: 2px;
+    background-color: #0cc8e0;
+}
+
+.green-section p{
+    margin: 25px;
+    font-size: large;
+}
+
+.green-section .icon-group .icon{
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: #5589c3;
+    transform: rotate(45deg);
+    margin: 20px;
+}
+
+.icon-group{
+    margin-top: 60px;
+}
+
+
+.wrapper{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+
+.gray-section .img-section{
+    width: 45%;
+}
+
+.img-section img{
+    width: 100%;
+    background-repeat: round;
+}
+
+.gray-section .text-section{
+    width: 55%;
+}
+
+.article-preview > div{
+    float: left;
+}
+
+.article-preview:after{
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.text-section{
+    position: relative;
+    top: 68px;
+    left: 50px;
+}
+
+.text-section h2{
+    margin-bottom: 20px;
+}
+
+.text-section p{
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+.article-preview{
+    background-color: white;
+    background: url("img/pic03.jpg");
+    background-repeat: repeat;
+}
